@@ -1,4 +1,3 @@
-// === File: src/components/Projects.js ===
 export function Projects() {
   return (
     <section id="projects" className="my-12">

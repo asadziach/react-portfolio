@@ -1,38 +1,33 @@
-// === File: README.md ===
-# Asad Zia — Professional Portfolio
+# AsadÂ Zia â€” Professional Portfolio
 
-A clean React + Tailwind portfolio ready for GitHub Pages.
+A clean React + Tailwind portfolio ready for GitHubÂ Pages.
 
 ## Local setup
 ```bash
-# 1 – scaffold project
+# 1Â â€“ scaffold project
 npx create-react-app react-portfolio
 cd react-portfolio
 npm install -D tailwindcss
 npx tailwindcss init
 # replace the template files with the provided code
 
-# 2 – preview locally
+# 2Â â€“ preview locally
 npm start
 ```
 
-## Deploy to GitHub Pages
+## Deploy to GitHubÂ Pages
 ```bash
-# 1 – commit and push to GitHub
-# 2 – add gh-pages
+# 1Â â€“ commit and push to GitHub
+# 2Â â€“ add ghâ€‘pages
 npm install --save gh-pages
 
-# 3 – add the following to package.json
-#    "homepage": "https://<your-github-username>.github.io/react-portfolio"
-#    and the scripts shown above
-
-# 4 – deploy
+# 4Â â€“ deploy
 npm run deploy
 ```
 GitHub Actions will publish the `build/` folder to the `gh-pages` branch and your
-site will be live at `https://<username>.github.io/react-portfolio`.
+site will be live at `https://asadziach.github.io/react-portfolio`.
 
 ## Pointing a custom domain (optional)
-Add an A record (apex) and CNAME (www) in your registrar to GitHub’s IPs
+Add an A record (apex) and CNAME (www) in your registrar to GitHubâ€™s IPs
 and `asadziach.github.io` respectively, then set the custom domain in the
-repository’s **Settings ? Pages**.
+repositoryâ€™s **Settings â†’ Pages**.

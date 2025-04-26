@@ -1,4 +1,3 @@
-// === File: src/components/Header.js ===
 import { FaLinkedin } from 'react-icons/fa';
 
 export function Header() {

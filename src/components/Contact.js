@@ -1,4 +1,3 @@
-// === File: src/components/Contact.js ===
 import { FaEnvelope } from 'react-icons/fa';
 
 export function Contact() {
